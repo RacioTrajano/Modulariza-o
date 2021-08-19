@@ -1,0 +1,10 @@
+void imprime_Menu();
+void imprime_Consultas();
+void imprime_quadrinho(Comic* q);
+char* aloca_e_copia(char* string);
+Comic* adiciona_quadrinho(Comic* banco, int* tam);
+Comic* remove_quadrinho(Comic* banco, int* tam);
+void marcar_leitura(Comic* banco, int tam);
+Comic* recupera_quadrinho(Comic* banco, int tam, char* nome, int num);
+void consulta_quadrinho(Comic* banco, int tam);
+void filtra_lista(Comic* banco, int tam, int param, void* valor);

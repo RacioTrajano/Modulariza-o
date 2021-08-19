@@ -1,0 +1,1 @@
+Comic* carregar_Base(int* tam);
